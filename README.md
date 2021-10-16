@@ -1,6 +1,10 @@
 <div align="center">
 
 ![ShellMon](img/logo.png)
+![](https://img.shields.io/badge/Version-1.0.0-red)
+![](https://img.shields.io/badge/License-MIT-green)
+![](https://img.shields.io/badge/Python-3.10.0-blue)
+
 #### An Simple PHP Webshell Manager
 
 </div>
@@ -37,3 +41,8 @@ python shellmon.py -u https://target.com -p yourpassword
 display if successfully connected
 ![result](img/res.jpg)
 you can also customize PHP shell functions by using the `--func [function]` argument, by default the function used is ***system***.
+
+#### Support
+- 22XploiterCrew
+- Banyumas Cyber Team
+- Jombang BlackHat
