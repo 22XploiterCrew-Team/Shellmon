@@ -50,7 +50,7 @@ Furthermore, if you want to connect your uploaded webshell to the target server,
 python shellmon.py -u https://target.com -p yourpassword
 ```
 display if successfully connected
-![result](img/res.jpg)
+![result](img/res2.jpg)
 you can also customize PHP shell functions by using the `--func [function]` argument, by default the function used is ***system***.
 
 #### Support
