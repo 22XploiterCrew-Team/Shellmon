@@ -26,7 +26,7 @@ after that move the pre-work directory in your terminal to the ***shellmon*** di
 Simple interactive shell commands make it easy to run this tool.
 
 type `python shellmon.py` in the terminal screen to display the help command.
-![help](img/help.jpg)
+![help](img/help2.png)
 
 If you want to generate a new webshell, you just need to type this command in the terminal
 ```bash
