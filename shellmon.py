@@ -110,7 +110,7 @@ def main():
 	elif args.generate:
 		print("While generate shellmon...", end="")
 		for _ in range(70-len(args.password)):
-			print("/-\|" [_ % 4], end="\b")
+			print("/-\\|" [_ % 4], end="\b")
 			sys.stdout.flush()
 			time.sleep(0.1)
 		filename = str(random.randint(0, 9)) + ".php"
